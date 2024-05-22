@@ -32,7 +32,9 @@ body{
     background-size: cover;
     display: inline-block;
     transition: 0.5s;
-    background-position: center; /* Center the image */
+    background-position: center;
+   
+    
 }
 
 
@@ -147,4 +149,9 @@ body{
     background: #ababab;
     color: #fff;
 }
+
+
+
+
+
 
