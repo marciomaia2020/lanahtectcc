@@ -20,7 +20,7 @@ body{
     box-shadow: 0 30px 50px #dbdbdb;
 }
 
-.container .slide .item{
+/*.container .slide .item{
     width: 200px;
     height: 300px;
     position: absolute;
@@ -29,18 +29,28 @@ body{
     border-radius: 20px;
     box-shadow: 0 30px 50px #505050;
     background-position: 50% 50%;
-    background-size: cover;
+    background-size: 100%;
     display: inline-block;
     transition: 0.5s;
-    background-position: center; /* Center the image */
+    background-position: center; /* Center the image 
+}*/
+.container .slide .item{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px #505050;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    background-position: 50% 50%;
+    /*background-position: center;*/
 }
 
-
-
-
-
 .item .background-image{
-    justify-content: center;
+    justify-content: left;
 }
 
 .slide .item:nth-child(1),
