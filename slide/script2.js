@@ -1,4 +1,4 @@
-//Script para os botoes de navegação d slide
+//Script para os botoes de navegação do slide
 const btns = document.querySelectorAll(".nav-btn");
 const slides = document.querySelectorAll(".video-slide");
 
