@@ -170,7 +170,7 @@ section{
     background: #fff;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 2px rgba(199, 5, 5, 0.5);
     transition: 0.3s ease;
 }
 
