@@ -1,0 +1,85 @@
+<div class="categoria">
+            <p>LANÇAMENTOS</p>
+        </div>
+
+            <div class="gallery">
+                <div class="image-container">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/P5BM6fLd/acorpurpura.jpg" alt="Image 1">
+                    </div>
+                    <div class="caption">A COR PÚRPURA</div>
+                </div>
+            
+                <div class="image-container">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/G3f9F2g2/meninasmalvadas.jpg" alt="Image 1">
+                    </div>
+                    <div class="caption">MENINAS MALVADAS</div>
+                </div>
+                
+                <div class="image-container">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/Kck1kxwd/Madame-teia-poster.jpg" alt="Image 1">
+                    </div>
+                    <div class="caption">MADAME TEIA</div>
+                </div>
+                
+                <div class="image-container">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/BQ1Ngjws/planetadosmacacos.jpg" alt="Image 1">
+                    </div>
+                    <div class="caption">PLANETA DOS MACACOS</div>
+                </div>
+                <div class="image-container">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/j2D0D6R6/cruella.jpg" alt="Image 1">
+                    </div>
+                    <div class="caption">CRUELLA</div>
+                </div>
+
+                <div class="image-container">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/jdcnwhVp/apequenasereia.jpg" alt="Image 1">
+                    </div>
+                    <div class="caption">A PEQUENA SEREIA</div>
+                </div>
+            </div>
+
+
+---------------------------------------------
+
+
+/* Estilos para a galeria */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Espaço entre as imagens */
+}
+
+/* Estilos para o contêiner da imagem e legenda */
+.image-container {
+  width: 200px; /* Largura fixa para cada item */
+  text-align: center;
+}
+
+/* Estilos para as imagens*/ 
+.image img {
+  width: 220px;
+  height: 350px;
+  display: inline;
+}
+
+/* Estilos para a legenda */
+.caption {
+  margin-top: 10px; /* Espaço entre a imagem e a legenda */
+  color: white;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;;
+}
+
+.image:hover img {
+filter: blur(2px); /*Altere o valor para ajustar o grau de desfoque */
+ transform: scale(1.1); /* Aumenta o tamanho da imagem */
+}
